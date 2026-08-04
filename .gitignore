@@ -1,0 +1,19 @@
+# Executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.dll
+*.lib
+
+# Debug folders
+Debug/
+Release/
+
+# Build folders
+build/
+bin/
+out/
