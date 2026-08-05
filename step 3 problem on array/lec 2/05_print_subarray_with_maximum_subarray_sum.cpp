@@ -82,7 +82,7 @@ Space Complexity: O(1)
 */
 
 vector<int> maxSubArray(vector<int>& nums) {
-
+//get maximun subarray length
     long long maxi = LONG_MIN;
     long long sum = 0;
 
@@ -159,7 +159,7 @@ Space Complexity: O(1)
 */
 
 vector<int> maxSubArrayAlternative(vector<int>& nums) {
-
+//minimun length
     long long maxi = LONG_MIN;
     long long sum = 0;
 
