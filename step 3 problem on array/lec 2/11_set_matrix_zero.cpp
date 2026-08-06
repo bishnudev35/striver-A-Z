@@ -248,7 +248,8 @@ void setZeroes(vector<vector<int>>& matrix) {
     int m = matrix[0].size();
 
     int col0 = 1;
-
+    // now the embaded(or consider) row is:matrix[..][0];
+    //now the embeded colomn is :matrix[0][j];
     // Mark rows and columns
     for(int i = 0; i < n; i++) {
 
