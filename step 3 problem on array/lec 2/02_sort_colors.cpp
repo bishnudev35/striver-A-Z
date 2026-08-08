@@ -225,9 +225,9 @@ Do NOT increment mid because the swapped element
 has not yet been processed.
 
 -------------------------------------------------------------------------------
-0   low-1 low       mid        high high+1   n-1
-|       | |         |           |  |          |
-|       | |         |           |  |          |
+0   low-1 low mid-1,mid        high high+1   n-1
+|       | |       | |           |  |          |
+|       | |       | |           |  |          |
 0 0 0 0 0 1 1 1 1 1 |  .  .. .. | 2 2 2 2 2 2
                     unsorted part
 Algorithm
