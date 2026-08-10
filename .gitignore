@@ -4,6 +4,7 @@
 # Object files
 *.o
 *.obj
+*.cph
 
 # Libraries
 *.dll
