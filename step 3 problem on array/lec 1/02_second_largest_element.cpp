@@ -93,25 +93,20 @@ Only two extra variables are used.
 ===============================================================================
 */
 
-int getSecondLargest(vector<int> &arr) {
-
-    // Find the largest element
-    int largest = INT_MIN;
-
-    for (int x : arr)
-        largest = max(largest, x);
-
-    // Find the second largest element
-    int secondLargest = -1;
-
-    for (int i = 0; i < arr.size(); i++) {
-
-        if (arr[i] != largest)
-            secondLargest = max(secondLargest, arr[i]);
+class Solution {
+  public:
+    int getSecondLargest(vector<int> &arr) {
+        // code here
+       int largest=-1,secondLargest=-1;
+       for(int i=0;i<arr.size();i++){
+           if(largest<arr[i]){
+               secondLargest=largest;
+               largest=arr[i];
+           }else if(arr[i]>secondLargest && largest>arr[i])secondLargest=arr[i];
+       }
+       return secondLargest;
     }
-
-    return secondLargest;
-}
+};
 
 int main() {
 
