@@ -180,8 +180,8 @@ int aggressiveCowsBrute(vector<int>& arr, int k) {
 
     for(int distance = 1; distance <= maxDistance; distance++) {
 
-        if(isPossibleBrute(arr, distance, k))
-            ans = distance;
+        if(isPossibleBrute(arr, distance, k))ans = distance;
+        else break;
     }
 
     return ans;
