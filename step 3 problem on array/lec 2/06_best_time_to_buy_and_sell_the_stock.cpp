@@ -38,9 +38,7 @@ prices = {7,6,4,3,1}
 Output:
 0
 
-Explanation:
-The prices continuously decrease.
-Hence no profit can be made.
+
 
 Constraints:
 1 <= prices.size() <= 10^5
