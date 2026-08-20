@@ -14,7 +14,6 @@ Two strings are anagrams if they contain the same characters with the same
 frequency, but the characters can appear in a different order.
 
 -------------------------------------------------------------------------------
-
 Example 1:
 
 Input:
