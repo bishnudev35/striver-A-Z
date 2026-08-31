@@ -341,7 +341,7 @@ vector<int> findPeakGrid(vector<vector<int>>& mat) {
     int high = m - 1;
 
     while(low <= high) {
-
+   //as we search colomn wise so mid consider as colomn
         int mid = low + (high - low) / 2;
 
         int row = maxElement(mat, mid);
