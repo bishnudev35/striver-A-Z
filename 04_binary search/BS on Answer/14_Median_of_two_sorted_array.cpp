@@ -400,7 +400,7 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
         int right1 = cut1 == n1 ? INT_MAX : nums1[cut1];
         int right2 = cut2 == n2 ? INT_MAX : nums2[cut2];
-
+        //valid partition 
         if(left1 <= right2 && left2 <= right1) {
 
             if((n1 + n2) % 2 == 0) {
